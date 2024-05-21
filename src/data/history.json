@@ -1,0 +1,37 @@
+[
+    {
+        "role": "Graduate Research Assistant",
+        "organisation": "University of Arkansas at Little Rock",
+        "startDate": "Jun, 2023",
+        "endDate": "May, 2024",
+        "experiences": ["Worked on Windows 11", "Designed the control panel"],
+        "imageSrc": "history/UALR.png"
+      },
+    {
+      "role": "Graduate Teaching Assistant",
+      "organisation": "University of Arkansas at Little Rock",
+      "startDate": "Jan, 2023",
+      "endDate": "May, 2024",
+      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+      "imageSrc": "history/UALR.png"
+    },
+    {
+      "role": "Graduate Research Assistant",
+      "organisation": "University of Arkansas at Little Rock",
+      "startDate": "Sep, 2022",
+      "endDate": "Aug, 2023",
+      "experiences": ["Worked on Windows 11", "Designed the control panel"],
+      "imageSrc": "history/UALR.png"
+    },
+    {
+      "role": "Software Engineer",
+      "organisation": "Surgical Information Systems",
+      "startDate": "May, 2019",
+      "endDate": "July, 2022",
+      "experiences": [
+        "Worked on component library",
+        "Helped create UI components"
+      ],
+      "imageSrc": "history/SIS.png"
+    }
+  ]
