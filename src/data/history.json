@@ -4,7 +4,7 @@
         "organisation": "University of Arkansas at Little Rock",
         "startDate": "Jun, 2023",
         "endDate": "May, 2024",
-        "experiences": ["Worked on Windows 11", "Designed the control panel"],
+        "experiences": ["Designed an asynchronous Node.js module for generating and caching thumbnails, achieving a 30% performance boost, while demonstrating troubleshooting skills to optimize system efficiency.", "Leveraged React Native, enabling the development of cross-platform mobile applications with seamless data exchange and efficient performance."],
         "imageSrc": "history/UALR.png"
       },
     {
@@ -12,7 +12,7 @@
       "organisation": "University of Arkansas at Little Rock",
       "startDate": "Jan, 2023",
       "endDate": "May, 2024",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+      "experiences": ["Addressed JavaScript inquiries on Promises, async/await, DOM manipulation, and event handling, mentored students on coding standards and maintainable code.", "Developed research methodologies integrating new technologies into the curriculum, supporting digital transformation and enhancing organizational learning processes."],
       "imageSrc": "history/UALR.png"
     },
     {
@@ -20,7 +20,7 @@
       "organisation": "University of Arkansas at Little Rock",
       "startDate": "Sep, 2022",
       "endDate": "Aug, 2023",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
+      "experiences": ["Implemented clickable minimap functionality in React.js, enabling precise document navigation and reducing user scrolling time by 50%. ", "Enhanced code quality and efficiency by integrating TypeScript into React, resulting in 35% fewer runtime errors and a 20% increase in development speed."],
       "imageSrc": "history/UALR.png"
     },
     {
@@ -29,8 +29,9 @@
       "startDate": "May, 2019",
       "endDate": "July, 2022",
       "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
+        "Created a real-time monitoring dashboard using React.js and ASP.NET, allowing the operations team to track system health metrics, reducing critical production issues by 20%.",
+        "Implemented Redux.js state synchronization with a file watcher for managing images efficiently, increasing productivity by 25% in image management task.",
+        "Implemented cron jobs for automated data backup and maintenance, reducing manual intervention by 30% and system downtime by 25%."
       ],
       "imageSrc": "history/SIS.png"
     }

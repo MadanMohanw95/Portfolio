@@ -1,13 +1,17 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding-top: 55px;
   z-index: 2;
   margin: 0 10%;
+  width: 80%;
+  top: -50px;
+  left: 0;
+  transition: background-color 0.3s ease;
 }
 
 .title {

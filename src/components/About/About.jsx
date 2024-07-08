@@ -19,8 +19,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+              Expertise in building responsive, high-performance web applications using HTML, CSS, JavaScript, React.js, Redux, Angular, and modern development practices.
               </p>
             </div>
           </li>
@@ -29,8 +28,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                Designing and developing robust, scalable server-side applications and APIs using languages like Node.js, C#, coupled with experience in database management (SQL and NoSQL), cloud services, and RESTful APIs.
               </p>
             </div>
           </li>
@@ -39,8 +37,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+              Creative UI Designer skilled in crafting intuitive, visually appealing interfaces with Figma, HTML, CSS, JavaScript, React.js, and Angular.
               </p>
             </div>
           </li>
