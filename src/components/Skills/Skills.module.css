@@ -24,33 +24,41 @@
 .skills {
     display: flex;
     flex-wrap: wrap;
-    gap: 37px;
+    gap: 1.8rem;
+    justify-content: center;
   }
   
   .skill {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 11px;
+    border-radius: 10rem;
+    background-color: #737f8a;
+    padding: 0.3rem 1.3rem;
+    width: 14%;
+    align-items: center;
+    box-shadow: 0.2rem 0.2rem 0.4rem 0;
   }
   
   .skillImageContainer {
     background-color: var(--color-secondary);
-    border-radius: 100%;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 120px;
+    width: 2.5rem;
+    height: 2.5rem;
   }
   
   .skillImageContainer img {
-    width: 75px;
+    width: 60%;
   }
   
   .skill p {
-    font-size: 25px;
+    font-size: 0.9rem;
     font-family: var(--font-roboto);
-    font-weight: 500;
+    font-weight: 400;
+    color: #fff;
   }
   

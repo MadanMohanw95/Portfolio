@@ -5,13 +5,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 55px;
-  z-index: 2;
-  margin: 0 10%;
-  width: 80%;
-  top: -50px;
-  left: 0;
-  transition: background-color 0.3s ease;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  background-color: var(--color-bg);
+  box-shadow: 0.2rem 0.2rem 0.2rem 0 var(--color-primary);
 }
 
 .title {
@@ -38,8 +36,12 @@
 
 .menuItems a {
   font-size: 25px;
-  color: var(--color-text);
+  color: var(--color-dark);
   text-decoration: none;
+}
+
+.menuItems a:hover {
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 830px) {
