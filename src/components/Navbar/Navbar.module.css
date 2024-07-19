@@ -8,8 +8,9 @@
   z-index: 999;
   width: 100%;
   top: 0;
-  background-color: var(--color-bg);
-  box-shadow: 0.2rem 0.2rem 0.2rem 0 var(--color-primary);
+  padding: 0 1rem;
+  background-color: var(--color-darkmode-bg);
+  box-shadow: 0.2rem 0.2rem 0.2rem 0 var(--color-darkmode-bg);
 }
 
 .title {
