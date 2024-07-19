@@ -1,38 +1,57 @@
 [
-    {
-        "role": "Graduate Research Assistant",
-        "organisation": "University of Arkansas at Little Rock",
-        "startDate": "Jun, 2023",
-        "endDate": "May, 2024",
-        "experiences": ["Designed an asynchronous Node.js module for generating and caching thumbnails, achieving a 30% performance boost, while demonstrating troubleshooting skills to optimize system efficiency.", "Leveraged React Native, enabling the development of cross-platform mobile applications with seamless data exchange and efficient performance."],
-        "imageSrc": "history/UALR.png"
-      },
-    {
-      "role": "Graduate Teaching Assistant",
-      "organisation": "University of Arkansas at Little Rock",
-      "startDate": "Jan, 2023",
-      "endDate": "May, 2024",
-      "experiences": ["Addressed JavaScript inquiries on Promises, async/await, DOM manipulation, and event handling, mentored students on coding standards and maintainable code.", "Developed research methodologies integrating new technologies into the curriculum, supporting digital transformation and enhancing organizational learning processes."],
-      "imageSrc": "history/UALR.png"
-    },
-    {
-      "role": "Graduate Research Assistant",
-      "organisation": "University of Arkansas at Little Rock",
-      "startDate": "Sep, 2022",
-      "endDate": "Aug, 2023",
-      "experiences": ["Implemented clickable minimap functionality in React.js, enabling precise document navigation and reducing user scrolling time by 50%. ", "Enhanced code quality and efficiency by integrating TypeScript into React, resulting in 35% fewer runtime errors and a 20% increase in development speed."],
-      "imageSrc": "history/UALR.png"
-    },
-    {
-      "role": "Software Engineer",
-      "organisation": "Surgical Information Systems",
-      "startDate": "May, 2019",
-      "endDate": "July, 2022",
-      "experiences": [
-        "Created a real-time monitoring dashboard using React.js and ASP.NET, allowing the operations team to track system health metrics, reducing critical production issues by 20%.",
-        "Implemented Redux.js state synchronization with a file watcher for managing images efficiently, increasing productivity by 25% in image management task.",
-        "Implemented cron jobs for automated data backup and maintenance, reducing manual intervention by 30% and system downtime by 25%."
-      ],
-      "imageSrc": "history/SIS.png"
-    }
-  ]
+  {
+    "role": "Graduate Research Assistant",
+    "organisation": "University of Arkansas at Little Rock",
+    "startDate": "Jun, 2023",
+    "endDate": "May, 2024",
+    "experiences": [
+      "Designed an asynchronous Node.js module for generating and caching thumbnails, achieving a 30% performance boost, while demonstrating troubleshooting skills to optimize system efficiency.",
+      "Leveraged React Native, enabling the development of cross-platform mobile applications with seamless data exchange and efficient performance.",
+      "Implemented MySQL database for storing authentication details, enhancing system security, and judgment to design robust data storage solutions."
+    ],
+    "imageSrc": "history/UALR.png"
+  },
+  {
+    "role": "Graduate Teaching Assistant",
+    "organisation": "University of Arkansas at Little Rock",
+    "startDate": "Jan, 2023",
+    "endDate": "May, 2024",
+    "experiences": [
+      "Addressed JavaScript inquiries on Promises, async/await, DOM manipulation, and event handling, mentored students on coding standards and maintainable code.",
+      "Developed research methodologies integrating new technologies into the curriculum, supporting digital transformation and enhancing organizational learning processes.",
+      "Created and maintained academic research project websites using HTML, CSS, and JavaScript, ensuring they met the usability and accessibility standards.",
+      "Created and maintained academic research project websites using HTML, CSS, and JavaScript, ensuring they met the usability and accessibility standards."
+    ],
+    "imageSrc": "history/UALR.png"
+  },
+  {
+    "role": "Graduate Research Assistant",
+    "organisation": "University of Arkansas at Little Rock",
+    "startDate": "Sep, 2022",
+    "endDate": "Aug, 2023",
+    "experiences": [
+      "Implemented clickable minimap functionality in React.js, enabling precise document navigation and reducing user scrolling time by 50%. ",
+      "Enhanced code quality and efficiency by integrating TypeScript into React, resulting in 35% fewer runtime errors and a 20% increase in development speed.",
+      "Collaborated with a team to enhance and update a web page with improved functionalities.",
+      "Employed JavaScript to build web applications, optimizing state management through Hooks for enhanced functionality and improved code organization.",
+      "Integrated Redis for caching frequently accessed data, reducing database load and improving application performance by 35%.",
+      "Used D3.js to create interactive and dynamic visualizations of health insurance data, providing stakeholders with deeper insights and improving data-driven decision-making by 40%.",
+      "Implemented Factory and Singleton design patterns following SOLID principles in Java applications for health insurance enrollment.",
+      "Wrote comprehensive unit and integration tests using Jest and Mocha, achieving 90% code coverage and minimizing bugs in production."
+    ],
+    "imageSrc": "history/UALR.png"
+  },
+  {
+    "role": "Software Engineer",
+    "organisation": "Surgical Information Systems",
+    "startDate": "May, 2019",
+    "endDate": "July, 2022",
+    "experiences": [
+      "Leveraged ES6 features including Promises and async/await, alongside React Hooks and Redux, to enhance code readability and effectively manage complex state in health insurance applications.",
+      "Optimized RESTful APIs with rate limiting and JWT authentication, resulting in a 25% improvement in API response time and increased security for patient data.",
+      "Integrated Servicenow with electronic health record (EHR) systems using REST APIs and OAuth authentication, ensuring seamless data synchronization and compliance with HIPAA regulations.",
+      "●Engineered MySQL database schemas to store health insurance policy data efficiently, incorporating normalization techniques that reduced data redundancy by 20% and improved query performance by 30%."
+    ],
+    "imageSrc": "history/SIS.png"
+  }
+]
