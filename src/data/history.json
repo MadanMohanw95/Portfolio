@@ -50,7 +50,7 @@
       "Leveraged ES6 features including Promises and async/await, alongside React Hooks and Redux, to enhance code readability and effectively manage complex state in health insurance applications.",
       "Optimized RESTful APIs with rate limiting and JWT authentication, resulting in a 25% improvement in API response time and increased security for patient data.",
       "Integrated Servicenow with electronic health record (EHR) systems using REST APIs and OAuth authentication, ensuring seamless data synchronization and compliance with HIPAA regulations.",
-      "●Engineered MySQL database schemas to store health insurance policy data efficiently, incorporating normalization techniques that reduced data redundancy by 20% and improved query performance by 30%."
+      "Engineered MySQL database schemas to store health insurance policy data efficiently, incorporating normalization techniques that reduced data redundancy by 20% and improved query performance by 30%."
     ],
     "imageSrc": "history/SIS.png"
   }
