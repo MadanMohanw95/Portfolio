@@ -2,44 +2,28 @@
   {
     "role": "Graduate Research Assistant",
     "organisation": "University of Arkansas at Little Rock",
-    "startDate": "Jun, 2023",
-    "endDate": "May, 2024",
+    "startDate": "Aug, 2023",
+    "endDate": "Present",
     "experiences": [
-      "Designed an asynchronous Node.js module for generating and caching thumbnails, achieving a 30% performance boost, while demonstrating troubleshooting skills to optimize system efficiency.",
-      "Leveraged React Native, enabling the development of cross-platform mobile applications with seamless data exchange and efficient performance.",
-      "Implemented MySQL database for storing authentication details, enhancing system security, and judgment to design robust data storage solutions."
+      "Designed and implemented scalable system architectures, facilitating the integration of new features and applications with minimal disruption.",
+      "Conducted system performance analysis and implemented improvements, enhancing system response times by 20%.",
+      "Managed MySQL databases, ensuring data integrity and optimizing query performance, resulting in a 15% increase in system efficiency."
     ],
     "imageSrc": "history/UALR.png"
   },
   {
-    "role": "Graduate Teaching Assistant",
-    "organisation": "University of Arkansas at Little Rock",
-    "startDate": "Jan, 2023",
-    "endDate": "May, 2024",
+    "role": "Software Developer",
+    "organisation": "Servicenow",
+    "startDate": "Aug, 2022",
+    "endDate": "Jun, 2023",
     "experiences": [
-      "Addressed JavaScript inquiries on Promises, async/await, DOM manipulation, and event handling, mentored students on coding standards and maintainable code.",
-      "Developed research methodologies integrating new technologies into the curriculum, supporting digital transformation and enhancing organizational learning processes.",
-      "Created and maintained academic research project websites using HTML, CSS, and JavaScript, ensuring they met the usability and accessibility standards.",
-      "Created and maintained academic research project websites using HTML, CSS, and JavaScript, ensuring they met the usability and accessibility standards."
+      "Strong understanding of relational database principles, with experience in Oracle.",
+      "Diagnosed and addressed maintenance and performance issues, leading to improved system stability.",
+      "Provided consultation on functional requirements and actively participated in code review sessions to ensure code quality and adherence to specifications.",
+      "Identified and implemented process improvements, leading to enhanced performance and efficiency of applications.",
+      "Documented and interpreted test results, promptly correcting application coding errors to maintain high-quality software standards."
     ],
-    "imageSrc": "history/UALR.png"
-  },
-  {
-    "role": "Graduate Research Assistant",
-    "organisation": "University of Arkansas at Little Rock",
-    "startDate": "Sep, 2022",
-    "endDate": "Aug, 2023",
-    "experiences": [
-      "Implemented clickable minimap functionality in React.js, enabling precise document navigation and reducing user scrolling time by 50%. ",
-      "Enhanced code quality and efficiency by integrating TypeScript into React, resulting in 35% fewer runtime errors and a 20% increase in development speed.",
-      "Collaborated with a team to enhance and update a web page with improved functionalities.",
-      "Employed JavaScript to build web applications, optimizing state management through Hooks for enhanced functionality and improved code organization.",
-      "Integrated Redis for caching frequently accessed data, reducing database load and improving application performance by 35%.",
-      "Used D3.js to create interactive and dynamic visualizations of health insurance data, providing stakeholders with deeper insights and improving data-driven decision-making by 40%.",
-      "Implemented Factory and Singleton design patterns following SOLID principles in Java applications for health insurance enrollment.",
-      "Wrote comprehensive unit and integration tests using Jest and Mocha, achieving 90% code coverage and minimizing bugs in production."
-    ],
-    "imageSrc": "history/UALR.png"
+    "imageSrc": "history/servicenow.png"
   },
   {
     "role": "Software Engineer",
@@ -47,11 +31,25 @@
     "startDate": "May, 2019",
     "endDate": "July, 2022",
     "experiences": [
-      "Leveraged ES6 features including Promises and async/await, alongside React Hooks and Redux, to enhance code readability and effectively manage complex state in health insurance applications.",
-      "Optimized RESTful APIs with rate limiting and JWT authentication, resulting in a 25% improvement in API response time and increased security for patient data.",
-      "Integrated Servicenow with electronic health record (EHR) systems using REST APIs and OAuth authentication, ensuring seamless data synchronization and compliance with HIPAA regulations.",
-      "Engineered MySQL database schemas to store health insurance policy data efficiently, incorporating normalization techniques that reduced data redundancy by 20% and improved query performance by 30%."
+      "Led a project to upgrade the hospital's EHR system, which resulted in a 99% system uptime and a 20% improvement in overall system reliability.",
+      "Ensured compliance with HIPAA regulations and guidelines in all system designs and implementations, protecting patient privacy and confidentiality.",
+      "Developed and maintained MySQL databases, optimizing query performance and ensuring data integrity across multiple applications.",
+      "Employed Git for robust version control, ensuring a systematic approach to code management, and consistently uploaded code alterations to the GitHub repository.",
+      "Implemented indexing strategies and query optimizations that improved database performance by 25%.",
+      "Led the development and maintenance of internal web applications using MySQL, HTML, and CSS, meeting security and performance standards."
     ],
     "imageSrc": "history/SIS.png"
+  },
+  {
+    "role": "Data Analyst Intern",
+    "organisation": "Henotic Analytics",
+    "startDate": "Oct, 2018",
+    "endDate": "Mar, 2019",
+    "experiences": [
+      "Managed and optimized MySQL databases to ensure data integrity and efficient query performance.",
+      "Communicated effectively with customers, peers, and supervisors during the deployment of a new telehealth system, providingregular status updates and ensuring project milestones were met.",
+      "Attended and actively engaged in department meetings to discuss the progress and challenges of the patient recordsystem,contributing to team goals and project planning."
+    ],
+    "imageSrc": "history/HenoticAnalytics.jpeg"
   }
 ]
