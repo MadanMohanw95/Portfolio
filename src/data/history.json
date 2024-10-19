@@ -1,41 +1,45 @@
 [
   {
-    "role": "Graduate Research Assistant",
-    "organisation": "University of Arkansas at Little Rock",
-    "startDate": "June 2023",
-    "endDate": "May 2024",
+    "role": "Senior Software Engineer",
+    "organisation": "College Board",
+    "startDate": "Jan 2023",
+    "endDate": "Present",
     "experiences": [
-      "Designed an asynchronous Node.js module for generating and caching thumbnails, achieving a 30% performance boost, while demonstrating troubleshooting skills to optimize system efficiency.",
-      "Leveraged React Native, enabling the development of cross-platform mobile applications with seamless data exchange and efficient performance.",
-      "Implemented MySQL database for storing authentication details, enhancing system security, and judgment to design robust data storage solutions."
+      "Integrated web forms on the College Board's website with Salesforce using Web-to-Lead functionality to automate lead capture and data entry.",
+      "Developed and maintained web pages using HTML5, CSS3, JavaScript, and ReactJS to enhance user experience and optimize lead generation efforts.",
+      "Implemented lead duplication detection processes in Salesforce to maintain data integrity and prevent redundant records.",
+      "Configured lead assignment rules in Salesforce to automatically route leads to appropriate business users based on predefined criteria.",
+      "Set up email notifications within Salesforce to alert team members of new lead assignments, ensuring timely follow-up.",
+      "Developed custom Apex classes and Visualforce pages to extend Salesforce capabilities and meet specific business requirements.",
+      "Created and managed the lead conversion process in Salesforce, transforming qualified leads into accounts, contacts, and opportunities.",
+      "Collaborated with marketing and sales teams to map web form fields to Salesforce, ensuring accurate data capture and seamless integration.",
+      "Optimized web-to-lead forms for mobile responsiveness and accessibility, increasing submission rates across devices.",
+      "Troubleshoot and resolved issues related to lead capture and Salesforce integration, minimizing downtime and data loss.",
+      "Implemented validation rules and workflows in Salesforce to enhance data quality and enforce business processes.",
+      "Developed and updated standard operating procedures (SOPs) for web development and Salesforce integration tasks to ensure consistency and knowledge sharing.",
+      "Utilized Asana for project management to coordinate tasks, track progress, and meet project deadlines.",
+      "Provided training and support to business users on Salesforce functionalities and best practices for lead management.",
+      "Ensured compliance with data protection regulations by implementing security measures in both web development and Salesforce environments."
     ],
-    "imageSrc": "history/UALR.png"
+    "imageSrc": "history/CollegeBoard.jpeg"
   },
   {
-    "role": "Graduate Teaching Assistant",
-    "organisation": "University of Arkansas at Little Rock",
+    "role": "Senior Software Engineer",
+    "organisation": "Walmart",
     "startDate": "Jan 2023",
     "endDate": "May 2024",
     "experiences": [
-      "Addressed JavaScript inquiries on Promises, async/await, DOM manipulation, and event handling, mentored students on coding standards and maintainable code.",
-      "Created and maintained academic research project websites using HTML, CSS, and JavaScript, ensuring they met the usability and accessibility standards.",
-      "Developed research methodologies integrating new technologies into the curriculum, supporting digital transformation and enhancing organizational learning processes.",
-      "Implemented mobile responsive designs to ensure optimal user experience across different devices and screen sizes."
+      "Implemented multi-threaded Java applications, utilizing concurrency utilities like Executor Service and Countdown Latch.",
+      "Leveraged Spring Data JPA to interact with Oracle database, including writing custom queries and integrating with existing database schemas.",
+      "Implemented RESTful APIs with Spring MVC, handling request mapping, request/response handling, and error handling.",
+      "Utilized Jest and Enzyme to create a comprehensive test suite, maintaining 92% code coverage and ensuring reliable application behaviour.",
+      "Leveraged ES6 features including Promises and async/await, alongside React Hooks and Redux, to enhance code readability and effectively manage complex state in health insurance applications.",
+      "Optimized RESTful APIs with rate limiting and JWT authentication, resulting in a 25% improvement in API response time.",
+      "Collaborated with DevOps engineers to implement containerization using Docker and deployment to Kubernetes cluster.",
+      "Implemented continuous monitoring and observability using the ELK stack, enabling proactive issue detection and a 50% reduction in mean time to resolution.",
+      "Developed server-side applications and APIs using Node.js to build scalable and high-performance software solutions."
     ],
-    "imageSrc": "history/UALR.png"
-  },
-  {
-    "role": "Graduate Research Assistant",
-    "organisation": "University of Arkansas at Little Rock",
-    "startDate": "Sep 2022",
-    "endDate": "Aug 2023",
-    "experiences": [
-      "Implemented clickable minimap functionality in React, enabling precise document navigation and reducing scrolling time by 50%. ",
-      "Enhanced code quality and efficiency by integrating TypeScript into React, resulting in 35% fewer runtime errors and a 20% increase in development speed.",
-      "Collaborated with a team to enhance and update a web page with improved functionalities. ",
-      "Employed JavaScript to build web applications, optimizing state management through Hooks for enhanced functionality and improved code organization."
-    ],
-    "imageSrc": "history/UALR.png"
+    "imageSrc": "history/Walmart.png"
   },
   {
     "role": "Software Engineer",
@@ -43,28 +47,23 @@
     "startDate": "May 2019",
     "endDate": "July 2022",
     "experiences": [
-      "Leveraged ES6 features including Promises and async/await, alongside React Hooks and Redux, to enhance code readability and effectively manage complex state in health insurance applications.",
-      "Optimized RESTful APIs with rate limiting and JWT authentication, resulting in a 25% improvement in API response time and increased security for patient data.",
-      "Integrated Servicenow with electronic health record (EHR) systems using REST APIs and OAuth authentication, ensuring seamless data synchronization and compliance with HIPAA regulations.",
-      "Configured Jenkins pipelines to automate the build, test, and deployment processes, reducing release cycles by 40% and ensuring code quality through automated testing.",
-      "Engineered MySQL database schemas to store health insurance policy data efficiently, incorporating normalization techniques that reduced data redundancy by 20% and improved query performance by 30%.",
-      "Integrated Redis for caching frequently accessed data, reducing database load and improving application performance by 35%.",
-      "Used D3.js to create interactive and dynamic visualizations of health insurance data, providing stakeholders with deeper insights and improving data-driven decision-making by 40%.",
-      "Developed RESTful APIs in Node.js with JSON payloads for securely transmitting health insurance policy updates, integrating robust authentication mechanisms.",
-      "Implemented Factory and Singleton design patterns following SOLID principles in Java applications for health insurance enrollment.",
+      "Designed and built robust backend services using .NET, Web API, and Entity Framework, achieving 99.9% uptime and handling over 1 million API requests per day.",
+      "Optimized application performance by implementing code splitting, caching, and cross-browser compatibility testing, and reducing load times by 40%.",
+      "Proficiency in customizing and extending Angular's built-in components to match the unique design requirements of the application, achieving a 95% end-user satisfaction rate.",
       "Led successful migration from AngularJS to Angular 8, implementing Angular CLI for enhanced performance and modern JavaScript standards.",
-      "Implemented XML-based data transformations using XSLT to convert health insurance claim data into standardized formats for regulatory reporting, reducing manual effort by 50% and ensuring data accuracy.",
-      "Built AJAX-driven interfaces for a health insurance claims portal, enabling seamless data retrieval and asynchronous updates, enhancing user experience and reducing page load times by 40%.",
-      "Wrote comprehensive unit and integration tests using Jest and Mocha, achieving 90% code coverage and minimizing bugs in production.",
-      "Built complex interactive features with JavaScript and jQuery, enhancing the website's functionality and user engagement."
+      "Developed a custom webhook system to facilitate asynchronous communication between the healthcare application and external services, improving reliability and scalability.",
+      "Designed and maintained complex SQL Server databases, including schema migrations, indexing, and stored procedures, supporting over 1TB of patient data.",
+      "Implemented batch processing and cron jobs for data synchronization, ensuring data integrity and timeliness, and reducing manual data processing by 60%.",
+      "Automated the build, test, and deployment processes using Jenkins, GitHub Actions, and Azure DevOps, reducing deployment time by 75% and enabling 10 deployments per day.",
+      "Implemented Factory and Singleton design patterns following SOLID principles in Java applications for health insurance enrollment."
     ],
     "imageSrc": "history/SIS.png"
   },
   {
-    "role": "Web Developer Intern",
+    "role": "Associate Software Developer",
     "organisation": "Henotic Analytics",
-    "startDate": "Oct 2018",
-    "endDate": "Mar 2019",
+    "startDate": "May 2018",
+    "endDate": "Apr 2019",
     "experiences": [
       "Implemented client-side form validation and error handling using ReactJS form libraries or custom solutions.",
       "Utilized .Net features such as LINQ, async/await, and generics to enhance code efficiency and readability.",

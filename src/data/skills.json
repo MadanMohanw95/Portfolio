@@ -26,5 +26,33 @@
     {
       "title": "Figma",
       "imageSrc": "skills/figma.png"
+    },
+    {
+      "title": "Webflow",
+      "imageSrc": "skills/webflow.jpeg"
+    },
+    {
+      "title": "WordPress",
+      "imageSrc": "skills/wordpress.jpeg"
+    },
+    {
+      "title": "Salesforce",
+      "imageSrc": "skills/salesforce.jpeg"
+    },
+    {
+      "title": "Amazon Web Services",
+      "imageSrc": "skills/salesforce.jpeg"
+    },
+    {
+      "title": "Java",
+      "imageSrc": "skills/java.jpeg"
+    },
+    {
+      "title": "Angular",
+      "imageSrc": "skills/angular.jpeg"
+    },
+    {
+      "title": "C#",
+      "imageSrc": "skills/csharp.jpeg"
     }
   ]

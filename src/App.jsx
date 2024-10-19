@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import { About } from "./components/About/About";
+import Blog from "./components/Blog/Blog";
 import { Contact } from "./components/Contact/Contact";
 import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";

@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Madan Mohan Reddy Vanga</h1>
         <p className={styles.description}>
-        Experienced software engineer adept in building scalable applications with JavaScript frameworks like React and Node.js, leveraging ES6 features, Redux, and RESTful APIs. Proven track record in optimizing systems, integrating diverse technologies, and implementing robust database solutions in healthcare and academic settings.
+          Experienced full-stack developer with 6 + years of experience and a comprehensive skill set spanning front-end, back-end, and DevOps technologies, capable of driving end-to-end software development lifecycles.
         </p>
         <a href="mailto:madanmohanreddyvanga@email.com" className={styles.contactBtn}>
           Contact Me

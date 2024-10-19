@@ -1,0 +1,105 @@
+/* src/Blog.module.css */
+
+.blogContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial, sans-serif';
+}
+
+.blogPosts {
+  display: flex;
+  overflow-x: auto;
+}
+
+.blogPost {
+  flex: 0 0 300px;
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.blogPost:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blogImage {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.blogContentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.blogTitle {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blogContent {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.blogLink {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  color: #007bff;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  align-self: flex-start;
+}
+
+.blogLink:hover {
+  background-color: #e2e6ea;
+  border-color: #ccc;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.pagination span {
+  font-size: 1em;
+  margin: 0 10px;
+}
