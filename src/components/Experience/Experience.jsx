@@ -16,6 +16,8 @@ export const Experience = () => {
                 <img
                   src={getImageUrl(historyItem.imageSrc)}
                   alt={`${historyItem.organisation} Logo`}
+                  width="80"
+                  height="50"
                 />
                 <div className={styles.historyItemDetails}>
                   <div className={styles.historyRoleDate}>
