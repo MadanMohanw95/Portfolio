@@ -1,10 +1,11 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  margin-top: 79px;
   color: var(--color-darkmode-bg);
   margin-left: 10%;
   margin-right: 10%;
+  scroll-margin-top: 64px;
 }
 
 .title {

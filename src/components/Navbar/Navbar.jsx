@@ -1,15 +1,40 @@
-import React, { useState } from "react";
-
+import { useState, useRef, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef();
+
+  // Handle clicks outside of the menu to close it
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        menuOpen &&
+        menuRef.current &&
+        !menuRef.current.contains(event.target)
+      ) {
+        setMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Cleanup listener on unmount
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [menuOpen]);
+
+  // Toggle menu visibility
+  const toggleMenu = () => {
+    setMenuOpen((prev) => !prev);
+  };
 
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        MV
       </a>
       <div className={styles.menu}>
         <img
@@ -20,24 +45,18 @@ export const Navbar = () => {
               : getImageUrl("nav/menuIcon.png")
           }
           alt="menu-button"
-          onClick={() => setMenuOpen(!menuOpen)}
+          onClick={toggleMenu}
         />
         <ul
-          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+          ref={menuRef}
+          className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
           onClick={() => setMenuOpen(false)}
         >
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
+          {["Experience", "Skills", "Projects", "Contact"].map((item) => (
+            <li key={item}>
+              <a href={`#${item.toLowerCase()}`}>{item}</a>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>
