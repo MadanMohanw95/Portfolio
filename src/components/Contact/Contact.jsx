@@ -15,7 +15,7 @@ export const Contact = () => {
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
           <a href="mailto:madanmohanreddyvanga@gmail.com">madanmohanreddyvanga@gmail.com</a>
         </li>
-        <li className={styles.link}>
+        {/* <li className={styles.link}>
           <img
             src={getImageUrl("contact/linkedinIcon.png")}
             alt="LinkedIn icon"
@@ -25,7 +25,7 @@ export const Contact = () => {
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
           <a href="https://github.com/MadanMohanw95">github.com/MadanMohanw95</a>
-        </li>
+        </li> */}
       </ul>
     </footer>
   );
